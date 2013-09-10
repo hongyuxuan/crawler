@@ -15,7 +15,7 @@ HTTP::HTTP()
         cout << "Failed to create CURL connection" << endl;
 		_exit(0);
     }
-		curl_easy_setopt(m_curl, CURLOPT_WRITEFUNCTION, &writer);
+	curl_easy_setopt(m_curl, CURLOPT_WRITEFUNCTION, &writer);
 //	curl_easy_setopt(m_curl, CURLOPT_WRITEDATA, &content);
 }
 

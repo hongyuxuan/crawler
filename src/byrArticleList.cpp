@@ -64,7 +64,7 @@ void ByrArticleList::start()
 		}
 		else
 		{
-			int outlen = response.length() * 2;
+			int outlen = response.length() * 5;
 			char * outbuf;
 			outbuf = (char *)malloc(outlen);
 			memset(outbuf, 0, outlen);
